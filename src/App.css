@@ -1,0 +1,60 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 10px 20px 20px;
+  margin-bottom: 2rem;
+}
+
+button {
+  margin: 4px;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+input {
+  padding: 6px;
+  margin: 4px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.erreur {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.page-info {
+  display: inline-block;
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.favori {
+  background: none;
+  border: none;
+  font-size: 18px;
+  padding: 0 6px;
+}
+
+.compteur-favoris {
+  color: #555555;
+  font-size: 14px;
+}
