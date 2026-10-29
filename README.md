@@ -48,8 +48,6 @@ Le bouton est désactivé pendant le chargement pour éviter les doubles appels.
 
 Le hook factorise `data`, `loading`, `error` et `reload`, et fonctionne avec `fetch` ou Axios selon l'option `client`.
 
-![Onglet Network](screenshots/image4.png)
-
 ## Exercices avancés
 
 ### Pagination
